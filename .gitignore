@@ -1,0 +1,20 @@
+# Ignore my logs
+*.log
+
+# Ignore my environment files / variables
+.env
+
+# Ignore my IDE / editor config files
+.vscode/
+
+# Ignore my Python Cache Files
+__pycache__/
+
+# Ignore my help guides / tutorials
+*.pdf
+*.doc
+*.docx
+
+# Ignore my images
+*.png
+*.jpeg
