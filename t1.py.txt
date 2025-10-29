@@ -1,3 +1,4 @@
+#calculator program
 while True:
     expression = input("Enter a mathematical expression (e.g., 5*5+2): ")
     if expression.lower() == "exit":
