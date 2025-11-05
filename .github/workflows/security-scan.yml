@@ -2,6 +2,11 @@ name: My Ox Security Scan
 
 on:
   workflow_dispatch:  #Allow manually trigger using the Github UI
+  push:
+    branches: [main]
+  
+  pull_request:
+    branches: [main]
 
 jobs:
   security:
